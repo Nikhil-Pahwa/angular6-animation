@@ -26,7 +26,7 @@ import {
           opacity: 0
       })),
       transition('show => hide', [
-        animate('0s')
+        animate('0.5s ease-out')
       ]),
       transition('hide => show', [
         animate('0.5s ease-out')
